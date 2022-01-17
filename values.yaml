@@ -1,4 +1,9 @@
 image:
-  name: nginx
-  tag: latest
+  # -- Rasa Open Source image name to use (relative to `registry`)
+  name: rasa
+
+  # -- Rasa Open Source image tag to use
+  tag: "2.8.11"
+  # -- Override default registry + image.name for Rasa Open Source
+  repository: ""
   
